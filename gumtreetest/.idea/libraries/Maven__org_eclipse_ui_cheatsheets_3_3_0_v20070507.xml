@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.ui:cheatsheets:3.3.0-v20070507">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/ui/cheatsheets/3.3.0-v20070507/cheatsheets-3.3.0-v20070507.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/ui/cheatsheets/3.3.0-v20070507/cheatsheets-3.3.0-v20070507-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/ui/cheatsheets/3.3.0-v20070507/cheatsheets-3.3.0-v20070507-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="benchmark" />
+        <module name="client" />
+        <module name="clientdiff" />
+        <module name="core" />
+        <module name="detect" />
+        <module name="genjdt" />
+        <module name="mytest" />
+        <module name="paserjdt" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="benchmark" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="clientdiff" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="detect" target="1.8" />
+      <module name="genjdt" target="1.8" />
+      <module name="gumtreetest" target="1.8" />
+      <module name="mytest" target="1.8" />
+      <module name="paserjdt" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

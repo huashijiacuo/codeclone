@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse:jdt:3.3.0-v20070607-1300">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/3.3.0-v20070607-1300/jdt-3.3.0-v20070607-1300.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/3.3.0-v20070607-1300/jdt-3.3.0-v20070607-1300-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/3.3.0-v20070607-1300/jdt-3.3.0-v20070607-1300-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

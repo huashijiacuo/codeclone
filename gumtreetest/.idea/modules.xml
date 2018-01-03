@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/benchmark/benchmark.iml" filepath="$PROJECT_DIR$/benchmark/benchmark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clientdiff/clientdiff.iml" filepath="$PROJECT_DIR$/clientdiff/clientdiff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/detect/detect.iml" filepath="$PROJECT_DIR$/detect/detect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/genjdt/genjdt.iml" filepath="$PROJECT_DIR$/genjdt/genjdt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gumtreetest.iml" filepath="$PROJECT_DIR$/gumtreetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytest/mytest.iml" filepath="$PROJECT_DIR$/mytest/mytest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paserjdt/paserjdt.iml" filepath="$PROJECT_DIR$/paserjdt/paserjdt.iml" />
+    </modules>
+  </component>
+</project>
