@@ -16,7 +16,7 @@ import structure.ASTToDot;
  * Description:
  */
 public class TreeCompare extends ASTMatcher {
-    public static boolean compare(ASTNode root1, ASTNode root2) {
+    public static boolean compareIgnoreIdentifier(ASTNode root1, ASTNode root2) {
 /*        if (root1 instanceof MethodDeclaration) {
             return new TreeCompare().match((MethodDeclaration)root1, root2);
         }*/
@@ -25,6 +25,11 @@ public class TreeCompare extends ASTMatcher {
         return root1.subtreeMatch(matcher, root2);
     }
 
+    public static boolean compareIgnoreConstanStr(ASTNode root1, ASTNode root2) {
+        ASTMatcher matcher = new Matcher4Type2IngoreConst();
+        return root1.subtreeMatch(matcher, root2);
+    }
+    // 未使用
     public boolean match(MethodDeclaration node, Object other) {
         if (!(other instanceof MethodDeclaration)) {
             return false;

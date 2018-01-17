@@ -8,6 +8,7 @@ package structure;
  * Description:
  */
 
+import org.eclipse.jdt.core.IJavaElement;
 import org.eclipse.jdt.core.dom.*;
 
 import java.util.ArrayList;
@@ -29,6 +30,16 @@ public class MethodNodeVisitor extends ASTVisitor {
     }
 
     @Override
+    public boolean visit(VariableDeclarationFragment node) {
+//        IVariableBinding binding = node.resolveBinding();
+//        ITypeBinding typeBinding = node.getName().resolveTypeBinding();
+//        System.out.println(((CompilationUnit) node.getRoot()).findDeclaringNode(binding));
+//        System.out.println(((CompilationUnit) node.getRoot()).findDeclaringNode(typeBinding));
+//        IJavaElement element = binding.getVariableDeclaration().getJavaElement();
+        return true;
+    }
+
+    @Override
     public boolean visit(ExpressionStatement node) {
         Expression expression = node.getExpression();
         if (expression instanceof MethodInvocation) {
@@ -39,6 +50,7 @@ public class MethodNodeVisitor extends ASTVisitor {
                 node.delete();
                 return false;
             }
+
         }
         return true;
     }

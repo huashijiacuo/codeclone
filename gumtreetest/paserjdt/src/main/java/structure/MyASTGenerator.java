@@ -17,15 +17,22 @@ import java.util.List;
 import java.util.Map;
 
 import org.eclipse.jdt.core.JavaCore;
-import org.eclipse.jdt.core.dom.AST;
-import org.eclipse.jdt.core.dom.ASTNode;
-import org.eclipse.jdt.core.dom.ASTParser;
-import org.eclipse.jdt.core.dom.CompilationUnit;
-import org.eclipse.jdt.core.dom.MethodDeclaration;
+import org.eclipse.jdt.core.dom.*;
 
 public class MyASTGenerator {
 
     public List<MyMethodNode> methodNodeList = new ArrayList<MyMethodNode>();
+
+    private ASTNode root;
+
+    public ASTNode getRoot() {
+        return root;
+    }
+
+    public void setRoot(ASTNode root) {
+        this.root = root;
+    }
+
 
     public MyASTGenerator(File f) {
         // TODO Auto-generated constructor stub
@@ -67,7 +74,18 @@ public class MyASTGenerator {
         parser.setCompilerOptions(pOptions);   // ASTParse转换也需要一些参数，慢慢研究 shun
         parser.setSource(str.toCharArray());
 
+
+        parser.setResolveBindings(true);
+        parser.setEnvironment( // apply classpath
+                new String[] { "//home//shi//" }, //
+                null, null, true);
+        parser.setUnitName("any_name");
+
         final CompilationUnit cu = (CompilationUnit)parser.createAST(null);
+
+        root = cu;
+
+
 //        System.out.println(cu);
         MethodNodeVisitor methodNodeVisitor = new MethodNodeVisitor();
         cu.accept(methodNodeVisitor);

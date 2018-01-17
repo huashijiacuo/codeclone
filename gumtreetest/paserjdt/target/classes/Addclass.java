@@ -5,11 +5,17 @@ import shi.com.common.MyLog;
 import org.apache.log4j.Logger;
 
 public class Addclass {
+    private static final Logger logger = Logger.getLogger(Addclass.class);
 
     public int addInt(int a, int b) {
         // 记录debug级别的信息
         logger.debug("This is debug message.");
-
+        int m, n = 4;
+        int p = 3;
+        int q;
+        Addclass addclass = new Addclass();
+        Addclass addclass1;
+        new Addclass()
         System.out.println("this is add function between integer");
         System.out.println("a = " + a);
         System.out.println("b = " + b);

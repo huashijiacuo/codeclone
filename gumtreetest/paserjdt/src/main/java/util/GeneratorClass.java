@@ -1,12 +1,16 @@
 package util;
 
 import org.eclipse.jdt.core.ICompilationUnit;
+import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.dom.*;
 import org.eclipse.jdt.internal.compiler.DefaultErrorHandlingPolicies;
 import org.eclipse.jdt.internal.compiler.impl.CompilerOptions;
 import org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory;
+import structure.JavaASTParser;
 
+import java.io.File;
 import java.util.Locale;
+import java.util.Map;
 
 /**
  * Created with IntelliJ IDEA.
@@ -50,6 +54,7 @@ public class GeneratorClass {
         return comp;
 
     }
+
 
     public static void main(String[] args) {
         new GeneratorClass().build();

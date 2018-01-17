@@ -35,7 +35,7 @@ public class Delete extends Action {
     }
 
     @Override
-    public String toString() {
+    public String toShortString() {
         return getName() + " " + node.toShortString();
     }
 
