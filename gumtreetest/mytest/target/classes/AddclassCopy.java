@@ -28,6 +28,10 @@ public class AddclassCopy {
         logger.info("This is info message.");
         // 记录error级别的信息
         logger.error("This is error message.");
+
+        String name = "name";
+        String myName = "myName";
+
         return z;
     }
 

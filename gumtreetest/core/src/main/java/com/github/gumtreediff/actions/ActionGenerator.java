@@ -81,12 +81,15 @@ public class ActionGenerator {
     }
 
     public List<Action> generate() {
+        int countSame = 0;
         ITree srcFakeRoot = new AbstractTree.FakeTree(newSrc);
         ITree dstFakeRoot = new AbstractTree.FakeTree(origDst);
         newSrc.setParent(srcFakeRoot);
         origDst.setParent(dstFakeRoot);
 
         actions = new ArrayList<>();
+        int actionOldSize = actions.size();
+        int actionNewSize = actionOldSize;
         dstInOrder = new HashSet<>();
         srcInOrder = new HashSet<>();
 
@@ -139,6 +142,16 @@ public class ActionGenerator {
             srcInOrder.add(w);
             dstInOrder.add(x);
             alignChildren(w, x);
+
+
+            /**
+             * shun
+             */
+            actionNewSize = actions.size();
+            if (actionNewSize != actionOldSize) {
+                countSame += (actionNewSize - actionOldSize);
+                actionOldSize = actionNewSize;
+            }
         }
 
         for (ITree w : newSrc.postOrder()) {
@@ -146,6 +159,15 @@ public class ActionGenerator {
                 actions.add(new Delete(origSrcTrees.get(w.getId())));
                 //w.getParent().getChildren().remove(w);
             }
+        }
+
+        /**
+         * shun
+         */
+        actionNewSize = actions.size();
+        if (actionNewSize != actionOldSize) {
+            countSame += (actionNewSize - actionOldSize);
+            actionOldSize = actionNewSize;
         }
 
         //FIXME should ensure isomorphism.

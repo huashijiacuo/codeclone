@@ -28,6 +28,10 @@ public class Addclass {
         logger.info("This is info message.");
         // 记录error级别的信息
         logger.error("This is error message.");
+
+        String name = "myName";
+//        String myName = "name";
+        int num = 4;
         return c;
     }
 
