@@ -2,8 +2,6 @@ package filter;
 
 import com.github.gumtreediff.gen.jdt.AbstractJdtVisitor;
 import org.eclipse.jdt.core.dom.ASTNode;
-import org.eclipse.jdt.core.dom.CompilationUnit;
-import structure.MethodNodeVisitor;
 
 /**
  * Created with IntelliJ IDEA.

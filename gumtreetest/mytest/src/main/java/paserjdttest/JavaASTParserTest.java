@@ -1,8 +1,6 @@
 package paserjdttest;
 
-import org.eclipse.core.internal.resources.Workspace;
 import org.eclipse.core.resources.IProject;
-import org.eclipse.core.resources.IWorkspace;
 import org.eclipse.core.resources.IWorkspaceRoot;
 import org.eclipse.core.resources.ResourcesPlugin;
 import org.eclipse.jdt.core.*;
@@ -11,9 +9,9 @@ import org.eclipse.jdt.core.search.IJavaSearchConstants;
 import org.eclipse.jdt.core.search.IJavaSearchScope;
 import org.eclipse.jdt.core.search.SearchEngine;
 import org.eclipse.jdt.core.search.SearchPattern;
-import org.omg.CORBA.portable.ValueInputStream;
 import structure.*;
 import structure.ASTRequestor;
+import structure.visitor.VariableNodeVisitor;
 import type2.TreeCompare;
 
 import java.util.*;

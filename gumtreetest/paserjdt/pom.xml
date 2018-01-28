@@ -31,6 +31,14 @@
             <version>4.2.3.RELEASE</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.jboss.windup.decompiler/decompiler-fernflower -->
+        <dependency>
+            <groupId>org.jboss.windup.decompiler</groupId>
+            <artifactId>decompiler-fernflower</artifactId>
+            <version>4.0.0.Final</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
 

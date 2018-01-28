@@ -3,8 +3,7 @@ package gumtreetest;
 import structure.ASTToDot;
 import structure.Main;
 import structure.MyASTGenerator;
-import structure.MyMethodNode;
-import type2.TreeCompare;
+import structure.astnode.MyMethodNode;
 
 import java.io.File;
 import java.net.URL;

@@ -1,11 +1,8 @@
 package variableflow;
 
-import javafx.scene.chart.ValueAxis;
 import org.eclipse.jdt.core.dom.ASTNode;
-import org.eclipse.jdt.core.dom.ASTVisitor;
 import org.eclipse.jdt.core.dom.SimpleName;
-import org.eclipse.jdt.core.dom.VariableDeclarationStatement;
-import structure.VariableNodeVisitor;
+import structure.visitor.VariableNodeVisitor;
 
 import java.util.*;
 

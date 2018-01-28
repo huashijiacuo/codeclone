@@ -9,7 +9,7 @@ import com.github.gumtreediff.matchers.Matchers;
 import com.github.gumtreediff.tree.ITree;
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
-import structure.NodeVisitor;
+import structure.visitor.NodeVisitor;
 import util.GeneratorClass;
 
 import java.io.IOException;

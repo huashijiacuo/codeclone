@@ -18,6 +18,10 @@ import java.util.Map;
 
 import org.eclipse.jdt.core.JavaCore;
 import org.eclipse.jdt.core.dom.*;
+import structure.astnode.MyASTNode;
+import structure.astnode.MyMethodNode;
+import structure.visitor.MethodNodeVisitor;
+import structure.visitor.NodeVisitor;
 
 public class MyASTGenerator {
 

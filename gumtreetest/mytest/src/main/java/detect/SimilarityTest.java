@@ -4,11 +4,10 @@ import com.github.gumtreediff.client.Run;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
-import structure.MyMethodNode;
+import structure.astnode.MyMethodNode;
 import structure.ParserJDT;
 import type3.Similarity;
 import util.FileUtil;
-import util.GeneratorClass;
 
 import java.io.File;
 import java.io.IOException;

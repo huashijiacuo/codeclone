@@ -1,8 +1,8 @@
 package structure;
 
 
-import org.eclipse.core.commands.AbstractHandler;
 import org.eclipse.jdt.core.dom.ASTNode;
+import structure.astnode.MyMethodNode;
 import variableflow.GeneratorVariableDeclaration;
 
 import java.io.File;

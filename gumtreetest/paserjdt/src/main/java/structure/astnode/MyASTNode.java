@@ -1,4 +1,4 @@
-package structure;
+package structure.astnode;
 
 /**
  * Created with IntelliJ IDEA.

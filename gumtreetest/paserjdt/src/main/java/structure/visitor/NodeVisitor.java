@@ -1,4 +1,4 @@
-package structure;
+package structure.visitor;
 
 /**
  * Created with IntelliJ IDEA.

@@ -1,4 +1,4 @@
-package structure;
+package structure.astnode;
 
 /**
  * Created with IntelliJ IDEA.
@@ -9,6 +9,7 @@ package structure;
  */
 
 import org.eclipse.jdt.core.dom.MethodDeclaration;
+import structure.astnode.MyASTNode;
 
 import java.util.ArrayList;
 import java.util.List;

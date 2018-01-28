@@ -8,6 +8,8 @@ package structure;
  * Description:
  */
 import org.eclipse.jdt.core.dom.ASTNode;
+import structure.astnode.MyASTNode;
+import structure.astnode.MyMethodNode;
 
 
 public class ASTToDot {
