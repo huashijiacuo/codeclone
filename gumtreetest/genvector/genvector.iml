@@ -11,8 +11,31 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.resources:3.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.expressions:3.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.runtime:3.13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.osgi:3.12.50" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.equinox.common:3.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.jobs:3.9.2" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.equinox.registry:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.equinox.preferences:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.contenttype:3.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.equinox.app:1.3.400" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.filesystem:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.text:3.6.100" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.commands:3.9.0" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="module" module-name="paserjdt" />
     <orderEntry type="module" module-name="client" />
     <orderEntry type="module" module-name="genjdt" />
+    <orderEntry type="module" module-name="core" />
+    <orderEntry type="library" name="Maven: org.jgrapht:jgrapht-core:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.trove4j:trove4j:3.0.3" level="project" />
+    <orderEntry type="library" name="Maven: com.github.mpkorstanje:simmetrics-core:3.2.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse:jdt:3.3.0-v20070607-1300" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.ui:intro:3.2.100-v20070530" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.core:runtime:3.10.0-v20140318-2214" level="project" />
@@ -38,31 +61,6 @@
     <orderEntry type="library" name="Maven: org.reflections:reflections:0.9.11" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.21.0-GA" level="project" />
-    <orderEntry type="module" module-name="detect" />
-    <orderEntry type="module" module-name="core" />
-    <orderEntry type="library" name="Maven: org.jgrapht:jgrapht-core:1.0.1" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.2" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.trove4j:trove4j:3.0.3" level="project" />
-    <orderEntry type="library" name="Maven: com.github.mpkorstanje:simmetrics-core:3.2.3" level="project" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
-    <orderEntry type="module" module-name="paserjdt" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:4.2.3.RELEASE" level="project" />
-    <orderEntry type="module" module-name="genvector" />
-    <orderEntry type="library" name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.resources:3.12.0" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.expressions:3.6.0" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.runtime:3.13.0" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.osgi:3.12.50" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.equinox.common:3.9.0" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.jobs:3.9.2" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.equinox.registry:3.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.equinox.preferences:3.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.contenttype:3.6.0" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.equinox.app:1.3.400" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.filesystem:1.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.text:3.6.100" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.platform:org.eclipse.core.commands:3.9.0" level="project" />
-    <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
-    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>

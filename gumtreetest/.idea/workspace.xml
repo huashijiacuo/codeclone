@@ -11,12 +11,16 @@
     <ignored path="$PROJECT_DIR$/mytest/target/" />
     <ignored path="$PROJECT_DIR$/paserjdt/target/" />
     <ignored path="$PROJECT_DIR$/detect/target/" />
+    <ignored path="$PROJECT_DIR$/genvector/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/gumtreetest$GetFilePathTest_getPath.coverage" NAME="GetFilePathTest.getPath Coverage Results" MODIFIED="1520947224041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -34,8 +38,45 @@
       <file leaf-file-name="MyASTGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/MyASTGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="319">
+              <caret line="116" column="53" lean-forward="true" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
+              <folding>
+                <element signature="e#627#641#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultAST2VectorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/genvector/src/test/java/MultAST2VectorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultAST2Vector.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/genvector/src/main/java/MultAST2Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+              <folding>
+                <element signature="e#924#932#0" expanded="true" />
+                <element signature="e#1164#1187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultMyASTGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/MultMyASTGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-115">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,89 +84,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Similarity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detect/src/main/java/type3/Similarity.java">
+      <file leaf-file-name="WriteVectorToFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/genvector/src/main/java/WriteVectorToFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="68" column="51" lean-forward="false" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+            <state relative-caret-position="454">
+              <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1102#1125#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Decompiler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/Decompiler.java">
+      <file leaf-file-name="AstVector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/genvector/src/main/java/AstVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="221" column="8" lean-forward="false" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
+            <state relative-caret-position="296">
+              <caret line="123" column="33" lean-forward="false" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4584#4614#0" expanded="true" />
+                <element signature="e#499#516#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecompilerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paserjdt/src/test/java/structure/DecompilerTest.java">
+      <file leaf-file-name="MyMethodNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/astnode/MyMethodNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameworkMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParameterException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/util/ParameterException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="214">
+              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Similarity.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detect/target/classes/type3/Similarity.class">
+      <file leaf-file-name="MyASTNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/astnode/MyASTNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/actions/model/Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="336">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -136,15 +138,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getLabel</find>
-      <find>hash</find>
       <find>setHash</find>
       <find>subTreeMatch0</find>
       <find>apilevel</find>
@@ -173,6 +174,8 @@
       <find>Lshi/com/Addclass;.addInt(II)I#a#0#0: 4</find>
       <find>getScope</find>
       <find>logger</find>
+      <find>getAllFiles</find>
+      <find>knownBuggyMethods</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -186,24 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/detect/src/main/java/type2/FunctionVisitior.java" />
-        <option value="$PROJECT_DIR$/detect/src/main/java/type2/Matcher4Type2.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/variableflow/FindVariableDeclaration.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/variableflow/VariableDeclaration.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/ParserJDT.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/RunSearchHandle.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/Main.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/RunSearchHandler.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/MyASTGenerator.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/actions/model/Delete.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/actions/model/Action.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/actions/model/Addition.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/actions/model/Update.java" />
-        <option value="$PROJECT_DIR$/mytest/src/main/java/gumtreetest/TestPaser.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/CobotASTRequestor.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/JavaASTParser.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/MyDeclarationVisitor.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/util/JavaCheckerUtility.java" />
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/MethodNodeVisitor.java" />
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/util/GeneratorClass.java" />
         <option value="$PROJECT_DIR$/paserjdt/src/main/resources/Addclass.java" />
@@ -213,7 +198,6 @@
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/variableflow/GeneratorVariableDeclaration.java" />
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/VariableNodeVisitor.java" />
         <option value="$PROJECT_DIR$/detect/src/main/java/type2/TreeCompare.java" />
-        <option value="$PROJECT_DIR$/mytest/src/main/java/paserjdttest/JavaASTParserTest.java" />
         <option value="$PROJECT_DIR$/mytest/src/main/java/paserjdttest/TestPaser.java" />
         <option value="$PROJECT_DIR$/detect/src/main/java/type2/Matcher4Type2IngoreConst.java" />
         <option value="$PROJECT_DIR$/detect/pom.xml" />
@@ -229,7 +213,6 @@
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/NodeVisitor.java" />
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/astnode/MyASTNode.java" />
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/VariableNodeVisitor.java" />
-        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/MethodNodeVisitor.java" />
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/MyDeclarationVisitor.java" />
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/astnode/MyMethodNode.java" />
         <option value="$PROJECT_DIR$/paserjdt/pom.xml" />
@@ -237,6 +220,26 @@
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/util/ParameterException.java" />
         <option value="$PROJECT_DIR$/paserjdt/src/test/java/structure/DecompilerTest.java" />
         <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/Decompiler.java" />
+        <option value="$PROJECT_DIR$/mytest/src/main/java/coutastnode/CountNode.java" />
+        <option value="$PROJECT_DIR$/genvector/src/main/java/vectorVisitor.java" />
+        <option value="$PROJECT_DIR$/genvector/src/main/java/VectorVisitor.java" />
+        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/JavaASTParser.java" />
+        <option value="$PROJECT_DIR$/mytest/src/main/java/paserjdttest/JavaASTParserTest.java" />
+        <option value="$PROJECT_DIR$/paserjdt/src/main/java/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/mytest/pom.xml" />
+        <option value="$PROJECT_DIR$/mytest/src/main/java/ast2vector/CountFile.java" />
+        <option value="$PROJECT_DIR$/genvector/src/test/java/AstVectorTest.java" />
+        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/MethodNodeVisitor.java" />
+        <option value="$PROJECT_DIR$/genvector/src/test/java/GetFilePathTest.java" />
+        <option value="$PROJECT_DIR$/genvector/src/main/java/GetFilePath.java" />
+        <option value="$PROJECT_DIR$/genvector/src/main/java/AstVector.java" />
+        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/FileAndMyASTGenerator.java" />
+        <option value="$PROJECT_DIR$/paserjdt/src/main/java/util/FileAndMyASTGenerator.java" />
+        <option value="$PROJECT_DIR$/genvector/src/test/java/MultAST2VectorTest.java" />
+        <option value="$PROJECT_DIR$/paserjdt/src/test/java/structure/MultMyASTGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/paserjdt/src/main/java/structure/MultMyASTGenerator.java" />
+        <option value="$PROJECT_DIR$/genvector/src/main/java/WriteVectorToFile.java" />
+        <option value="$PROJECT_DIR$/genvector/src/main/java/MultAST2Vector.java" />
       </list>
     </option>
   </component>
@@ -299,11 +302,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="65" />
-    <option name="y" value="76" />
-    <option name="width" value="1394" />
-    <option name="height" value="1004" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="338" />
+    <option name="y" value="123" />
+    <option name="width" value="1392" />
+    <option name="height" value="968" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -320,6 +323,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,93 +336,25 @@
             <path>
               <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
               <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="genvector" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
               <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="genvector" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
               <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="gumtreediff" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="gumtreediff" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="genvector" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
               <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="genvector" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -424,243 +362,17 @@
             <path>
               <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
               <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="gumtreediff" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="gumtreediff" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="gumtreediff" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="gumtreediff" type="462c0819:PsiDirectoryNode" />
-              <item name="matchers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="gumtreediff" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="type2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="type3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
+              <item name="genvector" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
               <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
+              <item name="genvector" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="type2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="type3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="paserjdttest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="mytest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
@@ -714,16 +426,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="visitor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gumtreetest" type="462c0819:PsiDirectoryNode" />
-              <item name="paserjdt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -771,14 +473,6 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
@@ -803,248 +497,225 @@
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-              <item name="statements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler.fernflower:windup-fernflower:1.0.0.20171018" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler.fernflower:windup-fernflower:1.0.0.20171018" type="70bed36:NamedLibraryElementNode" />
-              <item name="windup-fernflower-1.0.0.20171018.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler.fernflower:windup-fernflower:1.0.0.20171018" type="70bed36:NamedLibraryElementNode" />
-              <item name="windup-fernflower-1.0.0.20171018.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler.fernflower:windup-fernflower:1.0.0.20171018" type="70bed36:NamedLibraryElementNode" />
-              <item name="windup-fernflower-1.0.0.20171018.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jetbrains" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler.fernflower:windup-fernflower:1.0.0.20171018" type="70bed36:NamedLibraryElementNode" />
-              <item name="windup-fernflower-1.0.0.20171018.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jetbrains" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler.fernflower:windup-fernflower:1.0.0.20171018" type="70bed36:NamedLibraryElementNode" />
-              <item name="windup-fernflower-1.0.0.20171018.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jetbrains" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decompiler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler.fernflower:windup-fernflower:1.0.0.20171018" type="70bed36:NamedLibraryElementNode" />
-              <item name="windup-fernflower-1.0.0.20171018.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jetbrains" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decompiler" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler.fernflower:windup-fernflower:1.0.0.20171018" type="70bed36:NamedLibraryElementNode" />
-              <item name="windup-fernflower-1.0.0.20171018.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jetbrains" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decompiler" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="decompiler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler:decompiler-api:forge-addon:4.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler:decompiler-api:forge-addon:4.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="decompiler-api-4.0.0.Final-forge-addon.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler:decompiler-api:forge-addon:4.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="decompiler-api-4.0.0.Final-forge-addon.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler:decompiler-api:forge-addon:4.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="decompiler-api-4.0.0.Final-forge-addon.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jboss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler:decompiler-api:forge-addon:4.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="decompiler-api-4.0.0.Final-forge-addon.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jboss" type="462c0819:PsiDirectoryNode" />
-              <item name="windup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler:decompiler-api:forge-addon:4.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="decompiler-api-4.0.0.Final-forge-addon.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jboss" type="462c0819:PsiDirectoryNode" />
-              <item name="windup" type="462c0819:PsiDirectoryNode" />
-              <item name="decompiler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler:decompiler-api:forge-addon:4.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="decompiler-api-4.0.0.Final-forge-addon.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jboss" type="462c0819:PsiDirectoryNode" />
-              <item name="windup" type="462c0819:PsiDirectoryNode" />
-              <item name="decompiler" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler:decompiler-api:forge-addon:4.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="decompiler-api-4.0.0.Final-forge-addon.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jboss" type="462c0819:PsiDirectoryNode" />
-              <item name="windup" type="462c0819:PsiDirectoryNode" />
-              <item name="decompiler" type="462c0819:PsiDirectoryNode" />
-              <item name="decompiler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.jboss.windup.decompiler:decompiler-api:forge-addon:4.0.0.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="decompiler-api-4.0.0.Final-forge-addon.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="jboss" type="462c0819:PsiDirectoryNode" />
-              <item name="windup" type="462c0819:PsiDirectoryNode" />
-              <item name="decompiler" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="jdt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="jdt" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="jdt" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="dom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.50.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.50.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.50.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.50.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="jdt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.50.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="jdt" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.50.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="jdt" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="dom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.50.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="jdt" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.50.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="jdt" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="compiler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.50.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="jdt" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="compiler" type="462c0819:PsiDirectoryNode" />
+              <item name="ast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.jdt:org.eclipse.jdt.core:3.13.50" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.jdt.core-3.13.50.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="jdt" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="compiler" type="462c0819:PsiDirectoryNode" />
+              <item name="lookup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.platform:org.eclipse.equinox.common:3.9.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.platform:org.eclipse.equinox.common:3.9.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.equinox.common-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.platform:org.eclipse.equinox.common:3.9.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.equinox.common-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.platform:org.eclipse.equinox.common:3.9.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.equinox.common-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.platform:org.eclipse.equinox.common:3.9.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.equinox.common-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gumtreetest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.eclipse.platform:org.eclipse.equinox.common:3.9.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="org.eclipse.equinox.common-3.9.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="eclipse" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1055,21 +726,22 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4057377" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
       <recent name="structure" />
       <recent name="type3" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="gumtreetest" />
+      <recent name="util" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="gumtreetest" />
-      <recent name="" />
-      <recent name="util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mytest/src/main/resources" />
@@ -1091,7 +763,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MultAST2VectorTest.multAst2Vector">
+    <configuration name="AstVectorTest.generatorVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="genvector" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AstVectorTest" />
+      <option name="METHOD_NAME" value="generatorVector" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="DecompilerTest.decompilerJar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1117,19 +809,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DecompilerTest.implMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="structure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="paserjdt" />
+    <configuration name="GetFilePathTest.getPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="genvector" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="structure" />
-      <option name="MAIN_CLASS_NAME" value="structure.DecompilerTest" />
-      <option name="METHOD_NAME" value="implMain" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetFilePathTest" />
+      <option name="METHOD_NAME" value="getPath" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1142,14 +829,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GeneratorClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="util.GeneratorClass" />
+      <option name="MAIN_CLASS_NAME" value="structure.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1161,57 +848,39 @@
       <module name="paserjdt" />
       <envs />
     </configuration>
-    <configuration name="JavaASTParserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="paserjdttest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="paserjdttest.JavaASTParserTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="MultAST2VectorTest.multAst2Vector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="genvector" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MultAST2VectorTest" />
+      <option name="METHOD_NAME" value="multAst2Vector" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="mytest" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
     </configuration>
-    <configuration name="SimilarityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MultMyASTGeneratorTest.testThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="detect.*" />
+          <option name="PATTERN" value="structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="detect.SimilarityTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="paserjdt" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="mytest" />
-      <envs />
-    </configuration>
-    <configuration name="SimilarityTest.testGetSimilarity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="type3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="detect" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="type3" />
-      <option name="MAIN_CLASS_NAME" value="type3.SimilarityTest" />
-      <option name="METHOD_NAME" value="testGetSimilarity" />
+      <option name="PACKAGE_NAME" value="structure" />
+      <option name="MAIN_CLASS_NAME" value="structure.MultMyASTGeneratorTest" />
+      <option name="METHOD_NAME" value="testThread" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1306,18 +975,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.GeneratorClass" />
-      <item index="1" class="java.lang.String" itemvalue="Application.JavaASTParserTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SimilarityTest.testGetSimilarity" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SimilarityTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DecompilerTest.implMain" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AstVectorTest.generatorVector" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MultMyASTGeneratorTest.testThread" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GetFilePathTest.getPath" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MultAST2VectorTest.multAst2Vector" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DecompilerTest.implMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SimilarityTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SimilarityTest.testGetSimilarity" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JavaASTParserTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MultAST2VectorTest.multAst2Vector" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GetFilePathTest.getPath" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MultMyASTGeneratorTest.testThread" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AstVectorTest.generatorVector" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -1345,111 +1015,83 @@
       <workItem from="1514948257936" duration="11270000" />
       <workItem from="1514984608117" duration="87243000" />
       <workItem from="1517992297199" duration="441000" />
-      <workItem from="1517992758487" duration="603000" />
+      <workItem from="1517992758487" duration="1246000" />
+      <workItem from="1520567001366" duration="595000" />
+      <workItem from="1520859731643" duration="40592000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DecompilerTest_decompilerJar - 2018.01.28 at 21h 58m 30s.xml">
-      <configuration name="DecompilerTest.decompilerJar" configurationId="JUnit" />
+    <history-entry file="GetFilePathTest_getPath - 2018.03.13 at 21h 22m 04s.xml">
+      <configuration name="GetFilePathTest.getPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompilerTest_decompilerJar - 2018.01.28 at 21h 59m 55s.xml">
-      <configuration name="DecompilerTest.decompilerJar" configurationId="JUnit" />
+    <history-entry file="GetFilePathTest_getPath - 2018.03.13 at 21h 22m 24s.xml">
+      <configuration name="GetFilePathTest.getPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompilerTest_decompilerJar - 2018.01.28 at 22h 00m 36s.xml">
-      <configuration name="DecompilerTest.decompilerJar" configurationId="JUnit" />
+    <history-entry file="GetFilePathTest_getPath - 2018.03.13 at 21h 22m 36s.xml">
+      <configuration name="GetFilePathTest.getPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompilerTest_decompilerJar - 2018.01.28 at 22h 04m 25s.xml">
-      <configuration name="DecompilerTest.decompilerJar" configurationId="JUnit" />
+    <history-entry file="GetFilePathTest_getPath - 2018.03.13 at 21h 26m 40s.xml">
+      <configuration name="GetFilePathTest.getPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompilerTest_decompilerJar - 2018.01.28 at 22h 11m 01s.xml">
-      <configuration name="DecompilerTest.decompilerJar" configurationId="JUnit" />
+    <history-entry file="MultAST2VectorTest_multAst2Vector - 2018.03.13 at 23h 26m 28s.xml">
+      <configuration name="MultAST2VectorTest.multAst2Vector" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompilerTest_decompilerJar - 2018.01.28 at 22h 11m 07s.xml">
-      <configuration name="DecompilerTest.decompilerJar" configurationId="JUnit" />
+    <history-entry file="MultAST2VectorTest_multAst2Vector - 2018.03.13 at 23h 30m 50s.xml">
+      <configuration name="MultAST2VectorTest.multAst2Vector" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompilerTest_decompilerJar - 2018.01.28 at 22h 12m 05s.xml">
-      <configuration name="DecompilerTest.decompilerJar" configurationId="JUnit" />
+    <history-entry file="MultAST2VectorTest_multAst2Vector - 2018.03.13 at 23h 40m 37s.xml">
+      <configuration name="MultAST2VectorTest.multAst2Vector" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompilerTest_decompilerJar - 2018.01.28 at 22h 13m 29s.xml">
-      <configuration name="DecompilerTest.decompilerJar" configurationId="JUnit" />
+    <history-entry file="MultAST2VectorTest_multAst2Vector - 2018.03.13 at 23h 43m 04s.xml">
+      <configuration name="MultAST2VectorTest.multAst2Vector" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompilerTest_decompilerJar - 2018.01.28 at 22h 14m 10s.xml">
-      <configuration name="DecompilerTest.decompilerJar" configurationId="JUnit" />
+    <history-entry file="MultAST2VectorTest_multAst2Vector - 2018.03.13 at 23h 59m 31s.xml">
+      <configuration name="MultAST2VectorTest.multAst2Vector" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompilerTest_decompilerJar - 2018.01.28 at 22h 14m 35s.xml">
-      <configuration name="DecompilerTest.decompilerJar" configurationId="JUnit" />
+    <history-entry file="MultAST2VectorTest_multAst2Vector - 2018.03.14 at 00h 04m 22s.xml">
+      <configuration name="MultAST2VectorTest.multAst2Vector" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179274000" />
+    <option name="totallyTimeSpent" value="221104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="7" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3876698" sideWeight="0.5041459" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3095633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52873564" sideWeight="0.49585405" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3095633" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60188085" sideWeight="0.49585405" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30624655" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25981206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23327805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39811912" sideWeight="0.49806523" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3876698" sideWeight="0.5041459" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20342731" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38244513" sideWeight="0.49806523" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49947754" sideWeight="0.49585405" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33388612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1892,7 +1534,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/paserjdt/src/main/java/structure/JavaASTParser.java</url>
-          <line>66</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="156" />
         </line-breakpoint>
@@ -1956,378 +1598,518 @@
           <properties />
           <option name="timeStamp" value="175" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/paserjdt/src/main/java/structure/JavaASTParser.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/paserjdt/src/main/java/structure/JavaASTParser.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/paserjdt/src/main/java/util/FileUtil.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/paserjdt/src/main/java/structure/MyASTGenerator.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/genvector/src/main/java/AstVector.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/MethodNodeVisitor.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/genvector/src/main/java/GetFilePath.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="176" />
+      <option name="time" value="186" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+    <entry file="file://$PROJECT_DIR$/genvector/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/src/main/java/ast2vector/CountFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="41" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_152/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="554" column="18" lean-forward="false" selection-start-line="554" selection-start-column="18" selection-end-line="554" selection-end-column="18" />
+          <folding>
+            <element signature="e#23018#23019#0" expanded="false" />
+            <element signature="e#23057#23058#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/core/dom/VariableDeclarationFragment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/core/dom/ExpressionStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar!/org/reflections/util/Utils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar!/org/reflections/Reflections.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/core/dom/FieldDeclaration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="205">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detect/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/core/dom/ASTNode.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="149">
+          <caret line="776" column="78" lean-forward="false" selection-start-line="776" selection-start-column="78" selection-end-line="776" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detect/src/test/java/type3/SimilarityTest.java" />
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/github/gumtreediff/client/Run.java">
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/MethodNodeVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="132">
+          <caret line="49" column="92" lean-forward="false" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/internal/compiler/lookup/InferenceContext18.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="1090" column="27" lean-forward="false" selection-start-line="1090" selection-start-column="27" selection-end-line="1090" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/internal/compiler/ast/Block.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/internal/compiler/ast/AbstractMethodDeclaration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="609" column="0" lean-forward="false" selection-start-line="609" selection-start-column="0" selection-end-line="609" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/internal/compiler/ast/TypeDeclaration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="1145" column="0" lean-forward="false" selection-start-line="1145" selection-start-column="0" selection-end-line="1145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="645" column="0" lean-forward="false" selection-start-line="645" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/core/dom/CompilationUnitResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="989" column="0" lean-forward="false" selection-start-line="989" selection-start-column="0" selection-end-line="989" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/core/dom/ASTParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="528" column="0" lean-forward="false" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.50/org.eclipse.jdt.core-3.13.50.jar!/org/eclipse/jdt/internal/compiler/ast/MethodDeclaration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/platform/org.eclipse.equinox.common/3.9.0/org.eclipse.equinox.common-3.9.0.jar!/org/eclipse/core/runtime/SubMonitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="44" column="45" lean-forward="false" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding>
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2015#2016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.0/org.eclipse.jdt.core-3.13.0-sources.jar!/org/eclipse/jdt/core/dom/ASTParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3524">
+          <caret line="1063" column="20" lean-forward="false" selection-start-line="1063" selection-start-column="20" selection-end-line="1063" selection-end-column="20" />
+          <folding>
+            <element signature="e#5535#5536#0" expanded="false" />
+            <element signature="e#5569#5570#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_152/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3838">
+          <caret line="143" column="17" lean-forward="false" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/src/main/java/paserjdttest/JavaASTParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mytest/src/main/java/paserjdttest/TestPaser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="70" column="17" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="70" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/util/GeneratorClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mytest/src/main/java/detect/SimilarityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="43" column="44" lean-forward="true" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detect/src/main/resources/AddclassCopy.java" />
-    <entry file="file://$PROJECT_DIR$/detect/src/main/resources/Addclass.java" />
-    <entry file="file://$PROJECT_DIR$/mytest/src/main/resources/Addclass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mytest/src/main/resources/AddclassCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/matchers/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/matchers/MappingStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/tree/TreeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="196" column="21" lean-forward="true" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/tree/AbstractTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="170" column="41" lean-forward="false" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/tree/ITree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="162" column="9" lean-forward="false" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/actions/ActionGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="75" column="47" lean-forward="false" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
-          <folding>
-            <element signature="e#2460#2461#0" expanded="true" />
-            <element signature="e#2490#2491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/actions/model/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/actions/model/Addition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/github/gumtreediff/actions/model/Insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/MyASTGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/AsyncContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/NodeVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/VariableNodeVisitor.java">
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+          <folding>
+            <element signature="e#1913#1921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_152/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="1010" column="0" lean-forward="false" selection-start-line="1010" selection-start-column="0" selection-end-line="1010" selection-end-column="0" />
+          <folding>
+            <element signature="e#44347#44348#0" expanded="false" />
+            <element signature="e#44395#44396#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/variableflow/GeneratorVariableDeclaration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_152/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="195" column="13" lean-forward="false" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="13" />
+          <folding>
+            <element signature="e#8055#8056#0" expanded="false" />
+            <element signature="e#8125#8126#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.0/org.eclipse.jdt.core-3.13.0-sources.jar!/org/eclipse/jdt/core/dom/WildcardType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="39" column="54" lean-forward="true" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_152/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
+          <caret line="1968" column="42" lean-forward="false" selection-start-line="1968" selection-start-column="42" selection-end-line="1968" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_152/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="184" column="21" lean-forward="false" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="21" />
+          <folding>
+            <element signature="e#4725#4726#0" expanded="false" />
+            <element signature="e#4793#4794#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genvector/src/test/java/GetFilePathTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genvector/src/main/java/VectorVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genvector/src/test/java/AstVectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genvector/src/main/java/GetFilePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/FileAndMyASTGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/ASTToDot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/JavaASTParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/test/java/structure/MultMyASTGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#806#814#0" expanded="true" />
+            <element signature="e#1046#1069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/util/FileAndMyASTGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genvector/src/main/java/AstVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="123" column="33" lean-forward="false" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#499#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/MultMyASTGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/org.eclipse.jdt.core/3.13.0/org.eclipse.jdt.core-3.13.0-sources.jar!/org/eclipse/jdt/core/dom/MethodDeclaration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/astnode/MyASTNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detect/target/classes/type3/Similarity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/astnode/MyMethodNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/MyDeclarationVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/visitor/MethodNodeVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/jboss/windup/decompiler/decompiler-fernflower/4.0.0.Final/decompiler-fernflower-4.0.0.Final.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detect/target/classes/type2/TreeCompare.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mytest/target/classes/AddclassCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detect/src/main/java/type3/Similarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="68" column="51" lean-forward="false" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+        <state relative-caret-position="214">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/util/ICommonResultCode.java">
+    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/MyASTGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/java/jdk1.8.0_152/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/util/ParameterException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="319">
+          <caret line="116" column="53" lean-forward="true" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
           <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#627#641#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/java/jdk1.8.0_152/src.zip!/java/io/FileOutputStream.java">
+    <entry file="file://$PROJECT_DIR$/genvector/src/main/java/WriteVectorToFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/java/jdk1.8.0_152/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="471" column="18" lean-forward="false" selection-start-line="471" selection-start-column="18" selection-end-line="471" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/java/jdk1.8.0_152/src.zip!/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4165">
-          <caret line="376" column="19" lean-forward="false" selection-start-line="376" selection-start-column="19" selection-end-line="376" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/windup/decompiler/fernflower/windup-fernflower/1.0.0.20171018/windup-fernflower-1.0.0.20171018.jar!/org/jetbrains/java/decompiler/main/DecompilerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1368">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/windup/decompiler/fernflower/windup-fernflower/1.0.0.20171018/windup-fernflower-1.0.0.20171018.jar!/org/jetbrains/java/decompiler/main/decompiler/ConsoleDecompiler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="343" column="33" lean-forward="false" selection-start-line="343" selection-start-column="33" selection-end-line="343" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/src/test/java/structure/DecompilerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paserjdt/src/main/java/structure/Decompiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="221" column="8" lean-forward="false" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
+        <state relative-caret-position="454">
+          <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4584#4614#0" expanded="true" />
+            <element signature="e#1102#1125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genvector/src/test/java/MultAST2VectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genvector/src/main/java/MultAST2Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding>
+            <element signature="e#924#932#0" expanded="true" />
+            <element signature="e#1164#1187#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2384,7 +2166,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>detect</last-edited>
+          <last-edited>mytest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -12,6 +12,7 @@
         <module name="core" />
         <module name="detect" />
         <module name="genjdt" />
+        <module name="genvector" />
         <module name="mytest" />
         <module name="paserjdt" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="core" target="1.8" />
       <module name="detect" target="1.8" />
       <module name="genjdt" target="1.8" />
+      <module name="genvector" target="1.8" />
       <module name="gumtreetest" target="1.8" />
       <module name="mytest" target="1.8" />
       <module name="paserjdt" target="1.8" />

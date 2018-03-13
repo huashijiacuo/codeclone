@@ -47,24 +47,27 @@ public class JavaASTParser {
     }
 
     public JavaASTParser(String projectPath, List<String> libraryPath) {
+        this(projectPath, libraryPath, true);
+    }
+    public JavaASTParser(String projectPath, List<String> libraryPath, boolean isRelative) {
 //        Document x = new Document("asdjasf");
         this.projectPath = projectPath;
         this.libraryPath = libraryPath;
         setAstRequestor(new ASTRequestor());
         try {
-            this.generateASTs();
+            this.generateASTs(isRelative);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    private void generateASTs() {
+    private void generateASTs(boolean isRelative) {
 //        File filex = new File(projectPath);
-        File filex = FileUtil.getFile(projectPath);
+        File filex = FileUtil.getFile(projectPath, isRelative);
         filex.exists();
-        String[] sourceFilePaths = this.getAllFiles(projectPath, ".java");
+        String[] sourceFilePaths = FileUtil.getAllFiles(projectPath, ".java", isRelative);
         ASTParser parser = ASTParser.newParser(AST.JLS8);
-        String[] classpathEntries = this.getAllLibFiles(libraryPath, ".jar");
+        String[] classpathEntries = FileUtil.getAllLibFiles(libraryPath, ".jar");
         if (filex.isDirectory()) {
             String[] sourcePathEntries = { projectPath };
             parser.setEnvironment(classpathEntries, sourcePathEntries, null, true);
@@ -85,58 +88,5 @@ public class JavaASTParser {
     }
 
 
-    private String[] getAllLibFiles(List<String> projectPathList, String suffix) {
-        List<String> total = new LinkedList<>();
-        if (projectPathList == null) {
-            String [] rs = new String[0];
-            return rs;
-        }
-        for (String projectPath : projectPathList) {
-            if (projectPath == null) {
-                return null;
-            }
-            File file = new File(projectPath);
-            if (!file.exists()) {
-                return null;
-            }
-            ArrayList<String> filesList = new ArrayList<String>();
-            readFiles(file, suffix, filesList);
-            total.addAll(filesList);
-        }
-        String[] array = total.toArray(new String[total.size()]);
-        return array;
-    }
 
-    private String[] getAllFiles(String projectPath, String suffix) {
-        if (projectPath == null) {
-            return null;
-        }
-//        File file = new File(projectPath);
-        File file = FileUtil.getFile(projectPath);
-        if (!file.exists()) {
-            return null;
-        }
-        ArrayList<String> filesList = new ArrayList<String>();
-        readFiles(file, suffix, filesList);
-        int size = filesList.size();
-        String[] array = filesList.toArray(new String[size]);
-        return array;
-    }
-
-    private void readFiles(File file, String suffix, ArrayList<String> filesList) {
-        if (file == null) {
-            return;
-        }
-        if (file.isDirectory()) {
-            File f[] = file.listFiles();
-            if (f != null) {
-                for (int i = 0; i < f.length; i++) {
-                    readFiles(f[i], suffix, filesList);
-                }
-            }
-        } else if (file.getName().endsWith(suffix)) {
-            filesList.add(file.toString());
-        }
-
-    }
 }

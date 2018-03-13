@@ -26,12 +26,12 @@ import java.util.*;
 public class JavaASTParserTest {
 
     public static void main(String[] args) {
-        String fileName1 = "";
-        JavaASTParser parser = new JavaASTParser(fileName1, null);
+        String fileName1 = "/home/shi/Desktop/codeclone/dataset/selected"; //
+        JavaASTParser parser = new JavaASTParser(fileName1, null, false);
         List<CompilationUnit> list = parser.getCompilationUnits();
         ASTRequestor requestor = parser.getAstRequestor();
         System.out.println("-----------------------\nCompilationUnit numbers: " + list.size());
-        int i = 0;
+       /* int i = 0;
         CompilationUnit cu1 = list.get(0);
         CompilationUnit cu2 = list.get(1);
         VariableNodeVisitor varVisitor1 = new VariableNodeVisitor();
@@ -72,7 +72,7 @@ public class JavaASTParserTest {
         System.out.println("-----------------------\ncu2");
         System.out.println(cu2.toString());
         boolean result = TreeCompare.compareIgnoreConstanStr(cu1, cu2);
-        System.out.println("-----------------------\nThe result of comparation is : " + result);
+        System.out.println("-----------------------\nThe result of comparation is : " + result);*/
         /*for (CompilationUnit compilationUnit : list) {
             System.out.println("-----------------------\n" + "CompilationUnit  " + i++ + "\n-----------------------");
             VariableNodeVisitor varVisitor = new VariableNodeVisitor();

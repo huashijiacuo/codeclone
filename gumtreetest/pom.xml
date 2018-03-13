@@ -17,6 +17,7 @@
         <module>core</module>
         <module>mytest</module>
         <module>detect</module>
+        <module>genvector</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

@@ -47,7 +47,7 @@ public class MethodNodeVisitor extends ASTVisitor {
             if (name.getIdentifier().equals("println") || name.getIdentifier().equals("print")
                     || name.getIdentifier().equals("debug") || name.getIdentifier().equals("error")
                     || name.getIdentifier().equals("info")) {
-                node.delete();
+//                node.delete();  //此处应该删除打印信息的节点，因为该节点不影响程序的执行过程，只是一个信息的展示，然而删除后导致解析出错，有待研究
                 return false;
             }
 

@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/detect/detect.iml" filepath="$PROJECT_DIR$/detect/detect.iml" />
       <module fileurl="file://$PROJECT_DIR$/genjdt/genjdt.iml" filepath="$PROJECT_DIR$/genjdt/genjdt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/genvector/genvector.iml" filepath="$PROJECT_DIR$/genvector/genvector.iml" />
       <module fileurl="file://$PROJECT_DIR$/gumtreetest.iml" filepath="$PROJECT_DIR$/gumtreetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mytest/mytest.iml" filepath="$PROJECT_DIR$/mytest/mytest.iml" />
       <module fileurl="file://$PROJECT_DIR$/paserjdt/paserjdt.iml" filepath="$PROJECT_DIR$/paserjdt/paserjdt.iml" />
